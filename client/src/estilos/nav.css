@@ -1,0 +1,33 @@
+.header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+    height: 35px;
+    padding: 5px 10%;
+    margin-top: 12px;
+    border-bottom: 1px solid gray;
+}
+.header .logo{
+    cursor: pointer;
+}
+.header .logo img {
+    height: 38px;
+    width: auto;
+    margin: 10px;
+    transition: all 0.3s;
+
+}
+.header .logo img:hover{
+    transform: scale(1.2);
+}
+
+.titulo{
+    margin-right: 60%;
+}
+
+.header div{
+    margin: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}

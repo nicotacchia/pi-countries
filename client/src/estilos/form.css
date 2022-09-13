@@ -1,0 +1,66 @@
+.formFlex{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.form-box {
+    width: 350px;
+    box-shadow: 0px 0px 15px -5px;
+    border-radius: 5%;
+    margin-bottom: 20px;
+    
+}
+
+
+.flex-gifs{
+    display: flex;
+    justify-content: space-between;
+}
+
+form {
+    width: 450px;
+    margin: auto;
+    background: rgba(147, 147, 147, 0.4);
+    padding: 10px 20px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 15px -5px;
+    border-radius: 5%;
+}
+
+input, select{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 15px -5px;
+    border-radius: 15%;
+    text-decoration: none;
+    border: 1px solid crimson;
+    background: rgba(147, 147, 147, 0.4);
+    cursor: pointer;
+}
+
+.btn-submit {
+    background-color: crimson;
+    color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 15px -5px;
+    border-radius: 30%;
+
+}
+
+.btn-delete {
+    background-color: crimson;
+    color: white;
+    border-radius: 30%;
+    box-shadow: 0px 0px 15px -5px;
+}
+
+
+.btn-submit:hover {
+    cursor: pointer;
+
+}

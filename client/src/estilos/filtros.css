@@ -1,0 +1,15 @@
+.conteinerFilters{
+    display: flex;
+    padding: 10px;
+}
+
+.conteinerFilters div {
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+}
+
+.conteinerFilters select {
+    text-decoration: none;
+    border: 0px
+}

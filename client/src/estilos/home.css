@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+*{
+    margin-top: 5px;
+    margin: 5px;
+    padding: 5px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+
+.cardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+    margin-bottom: 20px;
+}
+
+.link{
+    text-decoration: none;
+    border-radius: 20%;
+    border: 1px solid crimson;
+    background: white;
+    color: inherit;
+    text-decoration: inherit;  
+}
